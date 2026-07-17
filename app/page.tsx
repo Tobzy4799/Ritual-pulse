@@ -57,7 +57,7 @@ export default function HomePage() {
           >
             Ritual Pulse turns live market data that is verified on-chain through Ritual&apos;s
             TEE-secured HTTP precompile into a real, stakeable prediction. Guess up or down,
-            wait two hours, find out for real.
+            wait 30 minutes, find out for real.
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -131,7 +131,7 @@ export default function HomePage() {
             Anyone can watch a chart. <span className="text-yellow-400">Only a few call it.</span>
           </h2>
           <p className="mt-4 text-sm text-gray-400 sm:text-base">
-            Every guess is a real signature, a real stake, and a real answer two hours later, there is no
+            Every guess is a real signature, a real stake, and a real answer 30 minutes later, there is no
             simulation, no paper trading. Get it right and the chain pays you back and if you get it wrong
             you find out exactly how the market humbled you. Either way, you&apos;ll know for
             certain, not vibes, not a screenshot, an on-chain result with your name on it.
@@ -159,7 +159,7 @@ export default function HomePage() {
             </span>
             <h2 className="mt-4 text-lg font-semibold text-gray-100">Guess the direction</h2>
             <p className="mt-2 text-sm text-gray-400">
-              Stake 0.001 RITUAL, guess up or down over the next 2 hours, come back and resolve.
+              Stake 0.001 RITUAL, guess up or down over the next 30 minutes, come back and resolve.
               Win it back (plus a bonus), or lose it if you&apos;re wrong.
             </p>
             <Link href="/guess" className="mt-4 inline-block text-sm font-medium text-yellow-400 hover:underline">
